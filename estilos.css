@@ -16,8 +16,10 @@ a {
     text-decoration: none;
 }
 
+
 .subTitulos {
     background-color: #e2e2e2;
+    font-weight: 700;
     padding: 4px;
     width: 240px;
     margin: 0 auto;
@@ -81,9 +83,14 @@ a:hover {
     margin: 8px 0 0 0;
 }
 
-.paragrafos {
+.box {
     background-color: #e2e2e2;
     width: 540px;
     padding: 10px;
     margin: 15px auto;
+}
+
+#listHab {
+    margin: 10px auto;
+    width: 500px;
 }
