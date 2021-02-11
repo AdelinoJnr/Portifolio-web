@@ -24,8 +24,7 @@ a {
 #cabecalho {
     height: 120px;
     background-color: #fff;
-    border-bottom: 5px double teal;
-    border-style: ;
+    border-bottom: 5px solid teal;
 }
 
 #titulo {
@@ -37,7 +36,7 @@ a {
 #logo {
     float: left;
     width: 360px;
-    margin: 22px 0 0 10px;
+    margin: 15px 0 0 20px;
 }
 
 #redesSociais {
@@ -46,3 +45,24 @@ a {
     width: 240px;
     margin-top: 15px;
 }
+
+#menu {
+    clear: both;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+#menu ul li {
+    display: inline-block;
+    line-height: 38px;
+}
+
+#menu ul li a {
+    padding: 11px 15px 11px 15px;
+    color: teal;
+}
+
+a:hover {
+    border-bottom: 5px solid red;
+}
+
