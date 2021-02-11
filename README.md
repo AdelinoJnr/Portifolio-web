@@ -1,2 +1,2 @@
 # PortifolioWeb
-Repositório responsável para mostrar meus projetos para Trybe.
+Repositório responsável para falar um pouco mais sobre mim.
