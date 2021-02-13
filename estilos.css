@@ -4,21 +4,31 @@
 }
 
 body {
-    background-color: #d2d2d2;
+    background-color: #2dce42;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 span {
-    color: #be1010;
+    color: #2dce42;
 }
 
 a {
     text-decoration: none;
 }
 
+#nome {
+    clear: both;
+    font-size: 25px;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 10px;
+    margin: 15px auto;
+    width: 480px;
+    color: teal;
+}
 
 .subTitulos {
-    background-color: #e2e2e2;
+    background-color: #fff;
     font-weight: 700;
     padding: 4px;
     width: 240px;
@@ -73,24 +83,44 @@ a {
     color: teal;
 }
 
-a:hover {
-    border-bottom: 5px solid red;
+#menu a:hover {
+    border-bottom: 5px solid #2dce42;
 }
 
 #conteudo {
-    background-color: aquamarine;
     clear: both;
-    margin: 8px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 .box {
-    background-color: #e2e2e2;
-    width: 540px;
-    padding: 10px;
+    background-color: #fff;
+    padding: 25px;
     margin: 15px auto;
 }
 
 #listHab {
     margin: 10px auto;
-    width: 500px;
+}
+
+#fotoPerfil {
+    border-radius: 5%;
+    border: 2px ridge gray;
+    border-style: ;
+}
+
+#painelFotos {
+    float: left;
+}
+
+#sobre {
+    float: right;
+    width: 400px;
+}
+
+#rodape {
+    clear: both;
+    background-color: #fff;
+    color: teal;
+    padding: 10px 15px;
+    text-align: right;
 }
