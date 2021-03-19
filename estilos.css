@@ -1,96 +1,165 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #d2d2d2;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
+  background-color: #363636;
 }
 
 span {
-    color: #be1010;
+  color: white;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
+header {
+  height: 100px;
+  background-color: #111111;
+}
+
+.cabecalho {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  width: 60%;
+  min-width: 500px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+}
+
+.my-name {
+  display: flex;
+}
+
+.list {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.list a {
+  color: #8026aa;
+}
+
+.list a:hover {
+  color: #ae49dd;
+}
 
 .subTitulos {
-    background-color: #e2e2e2;
-    font-weight: 700;
-    padding: 4px;
-    width: 240px;
-    margin: 0 auto;
-    color: teal;
-    font-size: 28px;
-    text-align: center;
+  background-color: #1a1a1a;
+  opacity: 0.8;
+  font-weight: 700;
+  padding: 4px;
+  width: 240px;
+  margin: 0 auto;
+  color: white;
+  font-size: 28px;
+  text-align: center;
 }
 
-#paginaCompleta {
-    margin: 0 auto;
-    width: 720px;
-}
-
-#cabecalho {
-    height: 120px;
-    background-color: #fff;
-    border-bottom: 5px solid teal;
+.subTitulos:hover {
+  opacity: 1;
 }
 
 #titulo {
-    margin-top: 12px;
-    font-size: 40px;
-    color: teal;
+  margin-top: 12px;
+  font-size: 40px;
+  color: #8026aa;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-#logo {
-    float: left;
-    width: 360px;
-    margin: 15px 0 0 20px;
+#titulo:hover {
+  opacity: 1;
 }
 
-#redesSociais {
-    float: right;
-    width: 240px;
-    margin-top: 15px;
-}
-
-#menu {
-    clear: both;
-    float: left;
-    margin: 10px 0 0 10px;
-}
-
-#menu ul li {
-    display: inline-block;
-    line-height: 38px;
-}
-
-#menu ul li a {
-    padding: 11px 15px 11px 15px;
-    color: teal;
-}
-
-a:hover {
-    border-bottom: 5px solid red;
+.foto-perfil {
+  border-radius: 50%;
+  width: 300px;
+  border: 1px outset black;
 }
 
 #conteudo {
-    background-color: aquamarine;
-    clear: both;
-    margin: 8px 0 0 0;
+  background-image: linear-gradient(0deg, #fcfcfc 0%, #3c0157 70%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 920px;
+  height: 100vh;
+}
+
+#painel-fotos {
+  align-self: center;
+}
+
+#biografia {
+  align-self: center;
+}
+
+.img-modif {
+  width: 220px;
+  height: 240px;
+}
+
+#skills {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+#habilidades {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.box-skill {
+  background-color: #1a1a1a;
+  margin: 10px 0;
+  padding: 15px;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.box-skill:hover {
+  opacity: 1;
 }
 
 .box {
-    background-color: #e2e2e2;
-    width: 540px;
-    padding: 10px;
-    margin: 15px auto;
+  background-color: #1a1a1a;
+  width: 360px;
+  padding: 10px;
+  opacity: 0.8;
+  margin: 15px auto;
+  color: white;
 }
 
-#listHab {
-    margin: 10px auto;
-    width: 500px;
+.copetencias {
+  color: white;
 }
