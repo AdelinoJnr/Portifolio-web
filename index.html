@@ -1,107 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <title>Portifólio Web</title>
-        <link rel="stylesheet" type="text/css" href="estilos.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Portifólio Web</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
 
-            <div id="cabecalho">
-                <div id="my-name">
-                    <a href="#sobre">
-                        <h1 id="titulo">Adelino<span>Jnr</span></h1>
-                    </a>
-                </div>
-                <nav id="menu">
-                    <ul>
-                        <li><a href="#fotoPerfil">Projetos</a></li>
-                        <li><a href="#sobre">Sobre mim</a></li>
-                        <li><a href="#habilidade">Habilidades</a></li>
-                        <li><a href="#linkedin">Contatos</a></li>
-                    </ul>
-                </nav>
-                
-            </div>
+    <div class="cabecalho">
+      <div class="my-name">
+        <h1 id="titulo">Adelino<span>Jnr</span></h1>
+      </div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="list"><a href="">Pagina Inial</a></li>
+          <li class="list"><a href="">Sobre Mim</a></li>
+          <li class="list"><a href="#skills">Habilidades</a></li>
+          <li class="list"><a href="#project">Projetos</a></li>
+          <li class="list"><a href="">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
 
-        </header>
+  </header>
 
-        <main>
-            
-            <div id="conteudo">
+  <main>
+    <section id="conteudo">
+      <!-- Sobre mim + foto -->
+      <div class="sobre">
+        <div id="painel-fotos">
+          <img class="foto-perfil" src="Img/foto-minha.jpg" alt="Foto do Adelino Junior">
+        </div>
 
-                <div id="painelFotos">
-
-                    <img id="fotoPerfil" src="Img/AdelinoJr.jpeg" alt="Foto do Adelino Junior" width="200px">
-
-                </div>
-
-                <div id="sobre">
-
-                    <div id="biografia">
-
-                        <h3 class="subTitulos">Sobre</h3>
-
-                        <div class="box">
-
-                            <p>
-                                Meu nome é <strong>Adelino Junior</strong>, nasci em Minas Gerais na cidade de Divinopolis, tenho 24 anos e sou apaixonado em tecnologias, onde despertou a paixão em ser um <strong>desenvolvedor</strong>.
-                            </p>
-
-                        </div>
-                       
-                        
-                    </div>
-
-                    <div  id="habilidades">
-
-                        <h3  class="subTitulos">Habilidades</h3>
-
-                        <div class="box">
-
-                            <div id="listHab">
-
-                                <ul>
-
-                                    <li>Tenho <strong>foco</strong> quando se trata de algo que quero me <strong>tornar ou conquistar</strong>.</li>
-                                    <br>
-                                    <li>Me interajo muito bem com pessoas, ajudando o fato de trabalhar em equipe.</li>
-                                    <br>
-                                    <li>Comprometimento e pontualidade me define também.</li>
+        <div id="biografia">
+          <h3 class="subTitulos">Sobre</h3>
+          <div class="box">
+            <p>
+              Meu nome é <strong>Adelino Junior</strong>, nasci em Minas Gerais na cidade de Divinopolis, tenho 24 anos e
+              sou apaixonado em tecnologias, onde despertou a paixão em ser um <strong>desenvolvedor</strong>.
+            </p>
+          </div>
+        </div>
         
-                                </ul>
+      </div>
+    </section>
 
-                            </div>
-                            
-
-                        </div>
-                       
-
-                        <a id="linkedin" href="https://www.linkedin.com/in/adelinojr/" target="_blank">
-                            Acesse meu Linkedin
-                        </a>
-
-                    </div>
-
-                </div>
-
-                
-
-            </div>
-
-        </main>
-       
+    <section id="skills">
+      <h3 class="subTitulos">Habilidades</h3>
+      <div id="habilidades">
+        <div class="box-skill">         
+          <img class="img-modif" src="Img/html-logo.png" alt="Logo HTML">
+          <h3 class="copetencias">HTML</h3>
+        </div>
+        <div class="box-skill">        
+          <img class="img-modif" src="Img/css-logo.png" alt="Logo CSS">
+          <h3 class="copetencias">CSS</h3>
+        </div>
+        <div class="box-skill">
+          <img class="img-modif" src="Img/javaScript-logo.png" alt="Logo JavaScript">
+          <h3 class="copetencias">JavaScript</h3>
+        </div>
+        <div class="box-skill">
+          <img class="img-modif" src="Img/react-logo.png" alt="Logo React">
+          <h3 class="copetencias">React</h3>
+        </div>
         
+      </div>
+
+    </section>
+
+    <section id="project">
+      <div class="projetos">
+        <div class="box-projetos">
+          projeto 1
+        </div>
+        <div class="box-projetos">
+          projeto 2
+        </div>
+      </div>
+    </section>
+
+    <a id="linkedin" href="https://www.linkedin.com/in/adelinojr/" target="_blank">
+      Acesse meu Linkedin
+    </a>
 
 
-    </body>
+
+
+  </main>
+
+
+
+
+</body>
 
 </html>
