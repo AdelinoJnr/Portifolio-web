@@ -44,8 +44,10 @@ header {
 }
 
 .menu {
-  width: 60%;
+  width: 40%;
   min-width: 500px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu-list {
@@ -88,7 +90,7 @@ header {
   font-weight: 700;
   padding: 4px;
   width: 240px;
-  margin: 0 auto;
+  margin: 15px auto;
   color: white;
   font-size: 28px;
   text-align: center;
@@ -103,6 +105,10 @@ header {
   width: 450px;
 }
 
+.foto-perfil:hover {
+  box-shadow: 0 0 2rem rgb(0, 0, 0);
+}
+
 #conteudo {
   background-image: linear-gradient(0deg, #fcfcfc 0%, #3c0157 70%);
   display: flex;
@@ -115,7 +121,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 90%;
-  max-width: 920px;
+  max-width: 1200px;
   height: 100vh;
 }
 
@@ -146,7 +152,7 @@ header {
 
 .box-skill {
   background-color: #1a1a1a;
-  margin: 10px 0;
+  margin: 25px 0;
   padding: 15px;
   opacity: 0.8;
   cursor: pointer;
@@ -158,6 +164,7 @@ header {
 
 .box-skill:hover, .box:hover {
   opacity: 1;
+  box-shadow: 0 0 2rem rgb(0, 0, 0);
 }
 
 .box {
@@ -167,7 +174,6 @@ header {
   font-size: 20px;
   padding: 10px;
   opacity: 0.8;
-  margin: 15px auto;
   color: white;
 }
 
@@ -176,8 +182,9 @@ header {
 }
 
 .img-project {
-  width: 250px;
-  border-radius: 40%;
+  width: 220px;
+  margin: 10px;
+  border-radius: 50%;
 }
 
 .center-link {
@@ -187,7 +194,8 @@ header {
 
 .box-list {
   display: flex;
-  justify-content: space-between;
+  margin-top: 40px;
+  justify-content: flex-start ;
   flex-basis: 90%;
   background-color: #1a1a1a;
   opacity: 0.8;
@@ -195,12 +203,21 @@ header {
 
 .box-list:hover {
   opacity: 1;
+  box-shadow: 0 0 2rem rgb(0, 0, 0);
 }
 
-.box h3 {
+.box-project h3, p {
   margin-bottom: 20px;
+  text-align: center;
 }
 
+.box-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  padding: 20px;
+}
 .content-rodape {
   margin-top: 80px;
   text-align: center;
@@ -215,7 +232,6 @@ header {
 
 .img-social {
   width: 40px;
-  margin: 10px;
 }
 
 .social {
@@ -226,13 +242,17 @@ header {
   color: #8026aa;
 }
 
+.link-social {
+  margin: 15px; 
+}
+
 @media screen and (max-width: 768px){
   header .menu {
     display: none;
   }
 
   .foto-perfil {
-    width: 350px;
+    width: 280px;
   }
 
   #titulo {
@@ -243,6 +263,7 @@ header {
     width: 90%;
     max-width: 500px;
     font-size: 20px;
+    margin: 0 auto;
   }
   
   .box-list {
@@ -252,5 +273,9 @@ header {
 
   .img-social {
     width: 60px;
+  }
+
+  .img-project {
+    margin: 10px;
   }
 }
