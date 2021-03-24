@@ -3,23 +3,23 @@ html {
 }
 
 body {
-    background-image: url(img/bg2.jpg);
+    background: url(img/bg2.jpg);
     background-repeat: no-repeat;
 }
 
 .mosquito1 {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
 }
 
 .mosquito2 {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
 }
 
 .mosquito3 {
-    width: 130px;
-    height: 130px;
+    width: 80px;
+    height: 80px;
 }
 
 .ladoA {
@@ -49,4 +49,45 @@ body {
     float: left;
     font-size: 20px;
     font-weight: bold;
+}
+
+.content-msg {
+  background-color: #c26e21;
+  color: #fff;
+  margin: 30px auto;
+  width: 300px;
+  height: 36px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    margin-top: 80px;
+  }
+
+  .img-principal {
+    width: 220px;
+  }
+
+  .mosquito1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .mosquito2 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .mosquito3 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .painel {
+    width: 170px;
+  }
+
 }
